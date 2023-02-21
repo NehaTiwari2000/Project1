@@ -1,9 +1,11 @@
 
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { DemocarComponent } from './democar/democar.component';
 
 const routes: Routes = [
-  // {path:"car-loan",component:CarloanComponent}
+  {path:"demo-car-loan",component:DemocarComponent}
+
 ];
 
 @NgModule({

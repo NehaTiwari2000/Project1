@@ -13,6 +13,7 @@ import {MatDialogModule} from '@angular/material/dialog';
 import { AddItemsComponent } from './add-items/add-items.component';
 import {MatAutocompleteModule} from '@angular/material/autocomplete';
 import {MatFormFieldModule} from '@angular/material/form-field';
+import { DemocarComponent } from './democar/democar.component';
 
 
 // import { VehicleDetailDtoComponent } from './carloan/Model/vehicle-detail-dto/vehicle-detail-dto.component';
@@ -20,6 +21,7 @@ import {MatFormFieldModule} from '@angular/material/form-field';
   declarations: [
     AppComponent,
     AddItemsComponent,
+    DemocarComponent,
   
   ],
   imports: [
